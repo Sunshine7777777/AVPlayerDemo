@@ -16,6 +16,8 @@
 		A42BC007225CB29C001E19FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BC006225CB29C001E19FF /* main.m */; };
 		A42BC011225CB29C001E19FF /* AVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BC010225CB29C001E19FF /* AVPlayerDemoTests.m */; };
 		A42BC01C225CB29C001E19FF /* AVPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BC01B225CB29C001E19FF /* AVPlayerDemoUITests.m */; };
+		A42BC02B225CFFAD001E19FF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BC02A225CFFAD001E19FF /* HomeViewController.m */; };
+		A4EC714A225D028000A09D1F /* MucisPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC7149225D028000A09D1F /* MucisPlayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A42BC017225CB29C001E19FF /* AVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42BC01B225CB29C001E19FF /* AVPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerDemoUITests.m; sourceTree = "<group>"; };
 		A42BC01D225CB29C001E19FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42BC029225CFFAD001E19FF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A42BC02A225CFFAD001E19FF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A4EC7148225D028000A09D1F /* MucisPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MucisPlayController.h; sourceTree = "<group>"; };
+		A4EC7149225D028000A09D1F /* MucisPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MucisPlayController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 		A42BBFF3225CB29A001E19FF /* AVPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A42BC029225CFFAD001E19FF /* HomeViewController.h */,
+				A42BC02A225CFFAD001E19FF /* HomeViewController.m */,
+				A4EC7148225D028000A09D1F /* MucisPlayController.h */,
+				A4EC7149225D028000A09D1F /* MucisPlayController.m */,
 				A42BBFF4225CB29A001E19FF /* AppDelegate.h */,
 				A42BBFF5225CB29A001E19FF /* AppDelegate.m */,
 				A42BBFF7225CB29A001E19FF /* ViewController.h */,
@@ -267,6 +277,8 @@
 				A42BBFFF225CB29A001E19FF /* AVPlayerDemo.xcdatamodeld in Sources */,
 				A42BBFF9225CB29A001E19FF /* ViewController.m in Sources */,
 				A42BC007225CB29C001E19FF /* main.m in Sources */,
+				A4EC714A225D028000A09D1F /* MucisPlayController.m in Sources */,
+				A42BC02B225CFFAD001E19FF /* HomeViewController.m in Sources */,
 				A42BBFF6225CB29A001E19FF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

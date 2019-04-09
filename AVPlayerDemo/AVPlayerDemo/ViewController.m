@@ -35,6 +35,8 @@
   //  self.myPlayerLayer.videoGravity = AVLayerVideoGravityResizeAspect;
     [self.view.layer addSublayer:self.myPlayerLayer];
     [self performSelector:@selector(play) withObject:nil afterDelay:3];
+    
+  
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)play{
@@ -64,7 +66,7 @@
         }
     }
     //移除监听（观察者）
- //   [object removeObserver:self forKeyPath:@"status"];
+    [object removeObserver:self forKeyPath:@"status"];
 }
 
 @end
