@@ -17,8 +17,9 @@
 @property (nonatomic,strong) AVAsset *myAsset;
 
 
-#define VedionUrl  @"http://vip.okokbo.com/20180117/BNp2mT7Q/index.m3u8"
-//#define VedionUrl @"http://wvideo.spriteapp.cn/video/2016/0709/5781023a979d7_wpd.mp4"
+//#define VedionUrl  @"http://vip.okokbo.com/20180117/BNp2mT7Q/index.m3u8"
+#define VedionUrl @"http://wvideo.spriteapp.cn/video/2016/0709/5781023a979d7_wpd.mp4"
+//#define VedionUrl  @"http://120.77.151.162:8080/media/IpadFile/video/红酒文化.mp4"
 @end
 
 @implementation ViewController
